@@ -1,0 +1,33 @@
+#result {
+  display: none;
+}
+
+body {
+  background-image: url("rootbeer.png");
+  background-repeat: repeat-x;
+  background-position: bottom;
+  background-color: #FFEBD6;
+  margin: 0px;
+  min-height: 100%;
+  width: 100%;
+}
+
+html {
+  margin: 0px;
+  min-height: 100%;
+  width: 100%;
+}
+
+* {
+  font-family: Alte Schwabacher;
+}
+
+h1 {
+  font-size: 50px;
+  text-shadow: 1px 1px 2px #932500;
+}
+
+blockquote {
+  color: #932500;
+  font: #932500;
+}
