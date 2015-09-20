@@ -4,7 +4,7 @@ var createSong = function(number) {
   var song = "";
 
   if (index <= 0) {
-    song = "There are no bottles of rootbeer on your wall! Go to the store and buy some bottles of rootbeer!";
+    song = "There are no bottles of root beer on your wall! Go to the store and buy some bottles of root beer!";
   }
   else {
     song = someBottles(index);
@@ -28,11 +28,11 @@ var someBottles = function(index) {
 
       if ( index == 1 ) { bottles = "bottle "; }
       if ( index == 0 ) {bottles = "  "; }
-      lyrics += index + " " + bottles + " of rootbeer on the wall. ; ";
+      lyrics += index + " " + bottles + " of root beer on the wall. ; ";
     }
 
     if ( index === 0 ) {
-        lyrics += "No more bottles of root beer on the wall, no more bottles of root beer! <br> Go to the store and buy some more, " + originalNumber + " bottles of rootbeer! <br>";
+        lyrics += "No more bottles of root beer on the wall, no more bottles of root beer! <br> Go to the store and buy some more, " + originalNumber + " bottles of root beer! <br>";
       }
     return lyrics;
 };
